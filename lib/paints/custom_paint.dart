@@ -27,9 +27,9 @@ class Mypaint extends CustomPainter {
       ..strokeCap = StrokeCap.round
       ..strokeWidth = 2;
 
-    canvas.drawCircle(Offset(w_center, h_center), (w * .80 - 50) * .40, p);
+    canvas.drawCircle(Offset(w_center, h_center), (w * .80 - 50) * .35, p);
     canvas.drawCircle(
-        Offset(w_center, h_center), (w * .80 - 50) * .40, outLine);
+        Offset(w_center, h_center), (w * .80 - 50) * .35, outLine);
 
     canvas.save();
     canvas.restore();
